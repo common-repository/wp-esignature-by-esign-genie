@@ -1,0 +1,361 @@
+div#esg_template_party .col-3 {
+    width: 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    padding: 0px;
+}
+
+#esg_template_party .col-3 {
+    width: 90%;
+    max-width: 90%;
+    flex: 0 0 90%;
+}
+
+div#esg_template_party .esg-form-field-select-party {
+    display: flex;
+    margin: 0px -10px 0px;
+    align-items: flex-end;
+}
+
+div#esg_template_party .esg-form-field-select-party div.form-group {
+    padding: 0px 10px;
+    position: relative;
+    margin: 10px 0px 0px;
+}
+
+div#party_id {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+div#esg_template_party {
+    position: relative;
+}
+
+div#esg_template_party label {
+    position: static;
+    font-size: 16px;
+    z-index: 9;
+}
+
+div#esg_template_party .esg-form-field-select-party div.form-group select.form-control, div#esg_template_party .esg-form-field-select-party div.form-group input {
+    height: 30px;
+    font-size: 14px;
+}
+
+div#esg_template_party .form-group {position: relative;}
+div#esg_template_party label[for="select-form"] {
+    top: 10px;
+}
+.radio-inline input:checked + span {
+    background: #457bff;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.radio-inline input {
+    opacity: 0;
+    position: absolute;
+}
+
+label.radio-inline {
+    position: relative;
+}
+
+.radio-inline input + span {
+    background: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #457bff;
+    color: #457bff;
+}
+div#set_party_permission, .row .col-3 .col-3 .form-group.custom-layout {
+    display: inline-block;
+    width: 48%;
+    margin-right: 18px;
+}
+
+div#party_sequence, .row .col-3 .col-3 .form-group.custom-layout-one {
+    display: inline-block;
+    width: 49%;
+}
+
+div#set_party_permission select.form-control, div#set_party_permission, .row .col-3 .col-3 .form-group.custom-layout .form-control {
+    font-size: 14px;
+    height: 28px;
+}
+div#esg_template_party .row .col-3 .col-3 {
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+div#esg_template_party .col-3 span.btn.btn-warning.btn-sm {
+    position: absolute;
+    left: 110px;
+    z-index: 9;
+}
+.col-12.signInSequence-check {
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.custom-serial {
+    position: absolute;
+    left: -60px;
+    bottom: 40px;
+}
+
+span.serial-number {
+    position: absolute;
+    left: -40px;
+    bottom: 4px;
+}
+
+.email-popup-con {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0,0,0,0.7);
+     z-index: 100;
+}
+.email-popup-inner-con {
+     width: 750px;
+     max-width: 75%;
+     background-color: #fff;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.email-popup-img-con,
+.email-popup-img-con img {
+     float: left;
+     width: 100%;
+     position: relative;
+}
+.email-popup-img-con::after {
+     content: " ";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0,0,0,0.6);
+}
+.message-overlay-con {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     transform: translateY(-50%);
+     padding: 0 25px;
+     width: 100%;
+     text-align: center;
+     z-index: 1;
+}
+.email-popup-img-con .message {
+     display: block;
+     color: #eee;
+     font-weight: 800;
+     text-transform: uppercase;
+     font-size: 50px;
+     line-height: 50px;
+}
+.email-popup-img-con .nothanks {
+     display: inline-block;
+     color: #ccc;
+     text-transform: uppercase;
+     margin-top: 5px;
+     font-weight: 600;
+}
+.email-popup-img-con .nothanks:hover {
+     color: #fff;
+     cursor: pointer;
+}
+.email-popup-inner-con .gform_wrapper {
+     padding: 25px;
+}
+.email-popup-inner-con div.gform_wrapper label.gfield_label {
+     display: none;
+}
+.email-popup-inner-con div.gform_wrapper .gform_footer .gform_button,
+.email-popup-inner-con div.gform_wrapper .gform_page_footer .button {
+     width: 100%;
+     background-color: #da842b;
+     padding: 10px;
+     font-size: 24px;
+}
+.email-popup-inner-con div.gform_wrapper .gform_footer .gform_button:hover,
+.email-popup-inner-con div.gform_wrapper .gform_page_footer .button:hover {
+     background-color: #ec9840;
+}
+.email-popup-inner-con div.gform_wrapper input[type="email"],
+.email-popup-inner-con div.gform_wrapper input[type="text"],
+.email-popup-inner-con div.gform_wrapper select {
+     background-color: transparent;
+     border: 2px solid #ccc;
+     color: #777;
+     padding: 15px;
+     border-radius: 5px;
+}
+.email-popup-inner-con .gform_confirmation_message {
+     color: #fff;
+     border: none;
+     background-color: #538594;
+}
+
+
+#esg_template_party th {white-space: nowrap;}
+
+.esg-primary {
+  color: #fff;
+  border-color: #00C2FF;
+  background-color: #00C2FF;
+}
+.esg-primary:hover, .esg-primary:focus, .esg-primary.active, .esg-primary:active {
+  color: #fff;
+  border-color: #00C2FF;
+  background-color: #00C2FF;
+}
+
+.esg-btn-outline {
+  color: #00C2FF;
+  border-color: #00C2FF;
+  background-color: #fff;
+}
+.esg-btn-outline:hover, .esg-btn-outline:focus, .esg-btn-outline.active, .esg-btn-outline:active, .esg-btn-outline:not(:disabled):not(.disabled):active {
+  color: #fff;
+  border-color: #00C2FF;
+  background-color: #00C2FF;
+  box-shadow: none !important;
+}
+
+.step-round {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddd;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.template-del div.esg-delete-field-group {
+	padding: 1px 10px 6px 10px;
+    border: solid 1px #7e8993;
+    line-height: normal;
+    height: auto;
+    float: left;
+    display: block;
+    margin-left: -1px;
+	border-radius: 0 3px 3px 0px;
+	cursor:pointer;
+	height:31px;
+}
+div.btnic.esg-delete-field-group:hover {
+    background: #f5f5f5;
+}
+.template-del div.esg-delete-field-group:focus {
+    outline: none;
+}
+.notebox i {font-size:13px;}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+a.ttl-bottom:before{
+	top:150%;
+	bottom:auto;
+}
+a.ttl-bottom:after {
+	top:133%;
+	bottom:auto;
+    border-bottom: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-top: none;
+}
+a.ttl-left:before {
+    width: 400px !important;
+	top:150%;
+	bottom:auto;
+}
+a.ttl-left{
+	z-index:0;
+}
+a.ttl-left:hover {
+	z-index:2;
+}
+a.ttl-left:after {
+	top:133%;
+	bottom:auto;
+    border-bottom: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-top: none;
+}
